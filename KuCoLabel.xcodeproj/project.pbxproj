@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C57BCE1AE8C4C300427FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C57BCD1AE8C4C300427FB7 /* main.m */; };
+		F1C57BD11AE8C4C300427FB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C57BD01AE8C4C300427FB7 /* AppDelegate.m */; };
+		F1C57BD41AE8C4C300427FB7 /* KuCoLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1C57BD21AE8C4C300427FB7 /* KuCoLabel.xcdatamodeld */; };
+		F1C57BD71AE8C4C300427FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C57BD61AE8C4C300427FB7 /* ViewController.m */; };
+		F1C57BDA1AE8C4C300427FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C57BD81AE8C4C300427FB7 /* Main.storyboard */; };
+		F1C57BDC1AE8C4C300427FB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C57BDB1AE8C4C300427FB7 /* Images.xcassets */; };
+		F1C57BDF1AE8C4C300427FB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1C57BDD1AE8C4C300427FB7 /* LaunchScreen.xib */; };
+		F1C57BEB1AE8C4C300427FB7 /* KuCoLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C57BEA1AE8C4C300427FB7 /* KuCoLabelTests.m */; };
+		F1D0AD571AF1EDA60049FA86 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D0AD561AF1EDA60049FA86 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C57BE51AE8C4C300427FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C57BC01AE8C4C300427FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C57BC71AE8C4C300427FB7;
+			remoteInfo = KuCoLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C57BC81AE8C4C300427FB7 /* KuCoLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuCoLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C57BCC1AE8C4C300427FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C57BCD1AE8C4C300427FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1C57BCF1AE8C4C300427FB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1C57BD01AE8C4C300427FB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1C57BD31AE8C4C300427FB7 /* KuCoLabel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KuCoLabel.xcdatamodel; sourceTree = "<group>"; };
+		F1C57BD51AE8C4C300427FB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1C57BD61AE8C4C300427FB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1C57BD91AE8C4C300427FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C57BDB1AE8C4C300427FB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1C57BDE1AE8C4C300427FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1C57BE41AE8C4C300427FB7 /* KuCoLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuCoLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C57BE91AE8C4C300427FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C57BEA1AE8C4C300427FB7 /* KuCoLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuCoLabelTests.m; sourceTree = "<group>"; };
+		F1D0AD551AF1EDA60049FA86 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F1D0AD561AF1EDA60049FA86 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C57BC51AE8C4C300427FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C57BE11AE8C4C300427FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C57BBF1AE8C4C300427FB7 = {
+			isa = PBXGroup;
+			children = (
+				F1C57BCA1AE8C4C300427FB7 /* KuCoLabel */,
+				F1C57BE71AE8C4C300427FB7 /* KuCoLabelTests */,
+				F1C57BC91AE8C4C300427FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C57BC91AE8C4C300427FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C57BC81AE8C4C300427FB7 /* KuCoLabel.app */,
+				F1C57BE41AE8C4C300427FB7 /* KuCoLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C57BCA1AE8C4C300427FB7 /* KuCoLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F1C57BCF1AE8C4C300427FB7 /* AppDelegate.h */,
+				F1C57BD01AE8C4C300427FB7 /* AppDelegate.m */,
+				F1C57BD51AE8C4C300427FB7 /* ViewController.h */,
+				F1C57BD61AE8C4C300427FB7 /* ViewController.m */,
+				F1D0AD551AF1EDA60049FA86 /* WebViewController.h */,
+				F1D0AD561AF1EDA60049FA86 /* WebViewController.m */,
+				F1C57BD81AE8C4C300427FB7 /* Main.storyboard */,
+				F1C57BDB1AE8C4C300427FB7 /* Images.xcassets */,
+				F1C57BDD1AE8C4C300427FB7 /* LaunchScreen.xib */,
+				F1C57BD21AE8C4C300427FB7 /* KuCoLabel.xcdatamodeld */,
+				F1C57BCB1AE8C4C300427FB7 /* Supporting Files */,
+			);
+			path = KuCoLabel;
+			sourceTree = "<group>";
+		};
+		F1C57BCB1AE8C4C300427FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C57BCC1AE8C4C300427FB7 /* Info.plist */,
+				F1C57BCD1AE8C4C300427FB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C57BE71AE8C4C300427FB7 /* KuCoLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C57BEA1AE8C4C300427FB7 /* KuCoLabelTests.m */,
+				F1C57BE81AE8C4C300427FB7 /* Supporting Files */,
+			);
+			path = KuCoLabelTests;
+			sourceTree = "<group>";
+		};
+		F1C57BE81AE8C4C300427FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C57BE91AE8C4C300427FB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C57BC71AE8C4C300427FB7 /* KuCoLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C57BEE1AE8C4C300427FB7 /* Build configuration list for PBXNativeTarget "KuCoLabel" */;
+			buildPhases = (
+				F1C57BC41AE8C4C300427FB7 /* Sources */,
+				F1C57BC51AE8C4C300427FB7 /* Frameworks */,
+				F1C57BC61AE8C4C300427FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KuCoLabel;
+			productName = KuCoLabel;
+			productReference = F1C57BC81AE8C4C300427FB7 /* KuCoLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C57BE31AE8C4C300427FB7 /* KuCoLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C57BF11AE8C4C300427FB7 /* Build configuration list for PBXNativeTarget "KuCoLabelTests" */;
+			buildPhases = (
+				F1C57BE01AE8C4C300427FB7 /* Sources */,
+				F1C57BE11AE8C4C300427FB7 /* Frameworks */,
+				F1C57BE21AE8C4C300427FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C57BE61AE8C4C300427FB7 /* PBXTargetDependency */,
+			);
+			name = KuCoLabelTests;
+			productName = KuCoLabelTests;
+			productReference = F1C57BE41AE8C4C300427FB7 /* KuCoLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C57BC01AE8C4C300427FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = KuCo;
+				TargetAttributes = {
+					F1C57BC71AE8C4C300427FB7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F1C57BE31AE8C4C300427FB7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F1C57BC71AE8C4C300427FB7;
+					};
+				};
+			};
+			buildConfigurationList = F1C57BC31AE8C4C300427FB7 /* Build configuration list for PBXProject "KuCoLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C57BBF1AE8C4C300427FB7;
+			productRefGroup = F1C57BC91AE8C4C300427FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C57BC71AE8C4C300427FB7 /* KuCoLabel */,
+				F1C57BE31AE8C4C300427FB7 /* KuCoLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C57BC61AE8C4C300427FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C57BDA1AE8C4C300427FB7 /* Main.storyboard in Resources */,
+				F1C57BDF1AE8C4C300427FB7 /* LaunchScreen.xib in Resources */,
+				F1C57BDC1AE8C4C300427FB7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C57BE21AE8C4C300427FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C57BC41AE8C4C300427FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D0AD571AF1EDA60049FA86 /* WebViewController.m in Sources */,
+				F1C57BD11AE8C4C300427FB7 /* AppDelegate.m in Sources */,
+				F1C57BD41AE8C4C300427FB7 /* KuCoLabel.xcdatamodeld in Sources */,
+				F1C57BD71AE8C4C300427FB7 /* ViewController.m in Sources */,
+				F1C57BCE1AE8C4C300427FB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C57BE01AE8C4C300427FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C57BEB1AE8C4C300427FB7 /* KuCoLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C57BE61AE8C4C300427FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C57BC71AE8C4C300427FB7 /* KuCoLabel */;
+			targetProxy = F1C57BE51AE8C4C300427FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C57BD81AE8C4C300427FB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C57BD91AE8C4C300427FB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C57BDD1AE8C4C300427FB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C57BDE1AE8C4C300427FB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C57BEC1AE8C4C300427FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1C57BED1AE8C4C300427FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C57BEF1AE8C4C300427FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KuCoLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1C57BF01AE8C4C300427FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KuCoLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1C57BF21AE8C4C300427FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KuCoLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KuCoLabel.app/KuCoLabel";
+			};
+			name = Debug;
+		};
+		F1C57BF31AE8C4C300427FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KuCoLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KuCoLabel.app/KuCoLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C57BC31AE8C4C300427FB7 /* Build configuration list for PBXProject "KuCoLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C57BEC1AE8C4C300427FB7 /* Debug */,
+				F1C57BED1AE8C4C300427FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C57BEE1AE8C4C300427FB7 /* Build configuration list for PBXNativeTarget "KuCoLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C57BEF1AE8C4C300427FB7 /* Debug */,
+				F1C57BF01AE8C4C300427FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C57BF11AE8C4C300427FB7 /* Build configuration list for PBXNativeTarget "KuCoLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C57BF21AE8C4C300427FB7 /* Debug */,
+				F1C57BF31AE8C4C300427FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1C57BD21AE8C4C300427FB7 /* KuCoLabel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1C57BD31AE8C4C300427FB7 /* KuCoLabel.xcdatamodel */,
+			);
+			currentVersion = F1C57BD31AE8C4C300427FB7 /* KuCoLabel.xcdatamodel */;
+			path = KuCoLabel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1C57BC01AE8C4C300427FB7 /* Project object */;
+}
